@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae19caab-fa9f-4e67-8301-c2f55c2c9ffe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/DeleteFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/DeleteFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/SearchFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/SearchFormController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +51,13 @@
         <item name="depTest@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="depTest: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="depTest@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="depTest: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="Customer: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -133,7 +139,7 @@
       <workItem from="1572959181787" duration="2474000" />
       <workItem from="1572969187340" duration="944000" />
       <workItem from="1572970164968" duration="1215000" />
-      <workItem from="1572973705893" duration="7023000" />
+      <workItem from="1572973705893" duration="7289000" />
     </task>
     <servers />
   </component>
