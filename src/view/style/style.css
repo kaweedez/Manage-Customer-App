@@ -1,0 +1,70 @@
+.ManageCustomer{
+    -fx-background-color:  #3498DB;
+}
+
+#imgHome:hover{
+    -fx-effect: dropshadow(gaussian,#6495ED,20,0.0,0,0);
+}
+
+#btnAddNewCus{
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+}
+
+#btnSaveAndUpdateCus{
+    -fx-background-color: #2ECC71;
+    -fx-text-fill: white;
+}
+
+#btnDeleteCus{
+    -fx-background-color: #E74C3C;
+    -fx-text-fill: white;
+}
+
+.table-row-cell:selected{
+    -fx-background-color:linear-gradient(from 0% 0% to 100% 100%, white 0%, #007bff 50%, white 100%);
+}
+
+.table-row-cell:selected .table-cell{
+    -fx-text-fill: black !important;
+}
+
+#btnAddNewItem{
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+}
+
+#btnSaveItem{
+    -fx-background-color: #2ECC71;
+    -fx-text-fill: white;
+}
+
+#btnDeleteItem{
+    -fx-background-color: #E74C3C;
+    -fx-text-fill: white;
+}
+
+#btnAddOrder{
+    -fx-background-color: #2ECC71;
+    -fx-text-fill: white;
+}
+
+#btnSaveOrder{
+    -fx-background-color: #ffc107;
+    -fx-text-fill: white;
+}
+
+#btnAddNewOrder{
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+}
+
+#lblTotal{
+    -fx-text-fill: red;
+}
+
+#btnReport{
+    -fx-background-color: #2C3A47;
+    -fx-text-fill: white;
+
+}
