@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.JFXTextField?>
 <?import javafx.scene.Cursor?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-
 
 <AnchorPane fx:id="root" prefHeight="479.0" prefWidth="722.0" stylesheets="@style/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SearchFormController">
    <children>
@@ -16,5 +18,14 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </ImageView>
+      <JFXTextField fx:id="txtSearch" labelFloat="true" layoutX="12.0" layoutY="89.0" prefHeight="28.0" prefWidth="698.0" promptText="Seach Here" />
+      <TableView fx:id="tblCustomer" layoutX="14.0" layoutY="140.0" prefHeight="317.0" prefWidth="698.0">
+        <columns>
+          <TableColumn prefWidth="122.0" text="Customer ID " />
+          <TableColumn prefWidth="190.0" text="Name" />
+            <TableColumn prefWidth="204.0" text="Address" />
+            <TableColumn prefWidth="181.0" text="Contact" />
+        </columns>
+      </TableView>
    </children>
 </AnchorPane>
