@@ -24,7 +24,8 @@
         <columns>
           <TableColumn prefWidth="153.0" text="Id" />
           <TableColumn prefWidth="246.0" text="Name" />
-            <TableColumn prefWidth="279.0" text="Address" />
+            <TableColumn prefWidth="148.0" text="Address" />
+            <TableColumn prefWidth="131.0" text="Number" />
         </columns>
       </TableView>
       <Button layoutX="632.0" layoutY="126.0" mnemonicParsing="false" onAction="#btn_delete_onaction" text="DELETE" />

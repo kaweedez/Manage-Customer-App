@@ -39,7 +39,8 @@ public class DeleteFormController implements Initializable {
         tbl_remove.getColumns().get(2).setCellValueFactory(new PropertyValueFactory<>("cusAddress"));
         tbl_remove.getColumns().get(3).setCellValueFactory(new PropertyValueFactory<>("cusContact"));
 
-        loadtable();
+
+//        loadtable();
 
 //        Connection connection = DBConnection.getInstance().getConnection();
 //        String sql="SELECT * from Customer";
@@ -97,29 +98,29 @@ public class DeleteFormController implements Initializable {
     }
 
     public void loadtable(){
-        tbl_remove.getItems().clear();
-//        Connection connection = DBConnection.getInstance().getConnection();
-        String sql="SELECT * from Customer";
-        try {
-            PreparedStatement prst = connection.prepareStatement(sql);
-            ResultSet resultSet = prst.executeQuery();
-
-            ObservableList items = tbl_remove.getItems();
-
-            while (resultSet.next()){
-                String id = resultSet.getString(1);
-                String name = resultSet.getString(2);
-                String address = resultSet.getString(3);
-                String number = resultSet.getString(4);
-
-                CustomerTM customerTM = new CustomerTM(id, name, address, number);
-                items.add(customerTM);
-
-            }
-
-
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+//        tbl_remove.getItems().clear();
+////        Connection connection = DBConnection.getInstance().getConnection();
+//        String sql="SELECT * from Customer";
+//        try {
+//            PreparedStatement prst = connection.prepareStatement(sql);
+//            ResultSet resultSet = prst.executeQuery();
+//
+//            ObservableList items = tbl_remove.getItems();
+//
+//            while (resultSet.next()){
+//                String id = resultSet.getString(1);
+//                String name = resultSet.getString(2);
+//                String address = resultSet.getString(3);
+//                String number = resultSet.getString(4);
+//
+//                CustomerTM customerTM = new CustomerTM(id, name, address, number);
+//                items.add(customerTM);
+//
+//            }
+//
+//
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        }
     }
 }
