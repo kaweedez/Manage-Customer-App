@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae19caab-fa9f-4e67-8301-c2f55c2c9ffe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/jfoenix_8_0_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jfoenix_8_0_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/InsertFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/InsertFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/SearchFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/SearchFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/InsertForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/InsertForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/SearchForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/SearchForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/DeleteFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/DeleteFormController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +133,7 @@
       <workItem from="1572959181787" duration="2474000" />
       <workItem from="1572969187340" duration="944000" />
       <workItem from="1572970164968" duration="1215000" />
-      <workItem from="1572973705893" duration="4388000" />
+      <workItem from="1572973705893" duration="7023000" />
     </task>
     <servers />
   </component>
