@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
 <?import javafx.scene.Cursor?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
 <AnchorPane fx:id="root" prefHeight="479.0" prefWidth="722.0" stylesheets="@style/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.InsertFormController">
    <children>
@@ -15,5 +20,27 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </ImageView>
+      <JFXTextField fx:id="txtFieldID" layoutX="68.0" layoutY="80.0" opacity="0.56" prefHeight="25.0" prefWidth="283.0" promptText="Customer ID" />
+      <JFXTextField fx:id="txtFieldName" layoutX="68.0" layoutY="124.0" opacity="0.63" prefHeight="25.0" prefWidth="283.0" promptText="Customer Name" />
+      <JFXTextField fx:id="txtFieldAddress" layoutX="367.0" layoutY="80.0" opacity="0.63" prefHeight="25.0" prefWidth="283.0" promptText="Customer Name" text="Customer Address" />
+      <JFXTextField fx:id="txtFieldContact" layoutX="367.0" layoutY="124.0" opacity="0.63" prefHeight="25.0" prefWidth="283.0" promptText="Customer Name" text="Customer Contact" />
+      <TableView fx:id="tblViewCustomerDetail" layoutX="68.0" layoutY="219.0" prefHeight="200.0" prefWidth="598.0">
+        <columns>
+          <TableColumn prefWidth="132.0" text="ID" />
+          <TableColumn prefWidth="153.0" text="Name" />
+            <TableColumn prefWidth="164.0" text="Address" />
+            <TableColumn prefWidth="148.0" text="Contact" />
+        </columns>
+      </TableView>
+      <JFXButton fx:id="btnAdd" layoutX="68.0" layoutY="170.0" onAction="#btnAdd_OnAction" prefHeight="25.0" prefWidth="133.0" style="-fx-background-color: #00b33c;" text="Add" textFill="#f2f2f2">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnNew" layoutX="216.0" layoutY="170.0" onAction="#btnNew_OnAction" prefHeight="25.0" prefWidth="133.0" style="-fx-background-color: #0066cc;" text="New" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
    </children>
 </AnchorPane>
